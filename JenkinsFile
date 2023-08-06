@@ -8,7 +8,9 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                echo "doing build stuff.."
+                javac NotificationCaller.java
+                java NotificationCaller
+                echo "Done Building.."
                 '''
             }
         }
