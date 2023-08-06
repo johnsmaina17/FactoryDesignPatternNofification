@@ -1,6 +1,6 @@
 public class SmsNofifier implements  Notification{
     @Override
     public void notifyUser() {
-        System.out.println("Sending  sms notification to user, testing jenkins");
+        System.out.println("Sending  sms notification to user, testing jenkins 2");
     }
 }
